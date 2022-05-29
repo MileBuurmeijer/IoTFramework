@@ -1,0 +1,26 @@
+{
+    "name": "IoTFramework",
+    "version": "0.7.5",
+    "description": "handy IoTFramework for handling wifi, mqtt, mdns on core 0 of esp 32",
+    "keywords": "wifi, mqtt, event-driven, mdns, core-0",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/mbuurmei/IoTFramework.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Milé Buurmeijer",
+        "email": "mbuurmei@netscape.com",
+        "url": "https://milebuurmeijer.name",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "knolleary/PubSubClient": "~2.8"
+    },
+    "frameworks": ["arduino"],
+    "platforms": ["ESP32"]
+  }
